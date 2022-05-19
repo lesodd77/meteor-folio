@@ -1,0 +1,23 @@
+@tailwind base;
+html{
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+
+
+body {
+  
+    box-sizing: border-box;
+  
+  }
+
+
